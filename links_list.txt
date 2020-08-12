@@ -1,0 +1,70 @@
+[0:11] https://www.ockam.io/learn/proposals/0003-key-agreement-xx/
+
+[0:14] https://cryptobook.nakov.com/asymmetric-key-ciphers/ecdh-key-exchange-examples
+
+[0:17] https://learn.sparkfun.com/tutorials/secure-diy-garage-door-opener
+
+[0:21] https://github.com/ockam-network/ockam/blob/develop/implementations/c/tools/scripts/config_atecc508a.py  (removed, but buried in the git repository somewhere?)
+   >> https://github.com/ockam-network/ockam/blob/develop/implementations/c/ (closest resolveable root)
+   (most similar to: https://github.com/MicrochipTech/cryptoauthtools/blob/master/python/examples/config.py )
+
+
+[0:26] https://www.meetup.com/Silicon-Valley-IoT-and-Wearable-Devices/events/270346130/ [IoT needs Secure Messaging, May 28, 2020 Hosted by Voler Systems]
+      > 'Video for "Secure Messaging by Ockam" link: https://drive.google.com/file/d/1_iB7kqUK5W8daxSybohq8-hdfrskZkZh/view?usp=sharing ' -Rio Valdes
+      > 'The slides for the talk are here https://www.ockam.io/learn/blog/why_iot_needs_secure_messaging/ ' -Rio Valdes
+       (includes comment by Mrinal about the nature of the protocol "mutually authenticated handshake with 3 messages -- incl. byte size"
+
+[0:29] https://davidederosa.com/basic-blockchain-programming/ (A developer-oriented series about Bitcoin by David E. Rosa, Apr 24, 2015)
+       > https://github.com/keeshux/basic-blockchain-programming
+       > https://medium.com/asecuritysite-when-bob-met-alice/alice-whispers-to-bob-at-the-core-of-privacy-in-the-21st-century-is-extended-triple-51736dad527d
+         (Alice Whispers To Bob: At the core of privacy in the 21st Century is Extended Triple Diffie-Hellman and Ratchets by Prof Bill Buchanan OBE, June 16, 2019)
+       > (https://youtu.be/_4muqgreEXE by Extended Triple Diffie-Hellman - X3DH by  Bill Buchanan OBE)
+       > Network Security 101: Full Workshop by Secure Set, https://www.youtube.com/watch?v=E03gh1huvW4
+       > https://livebook.manning.com/book/real-world-cryptography/ , Real World Cryptography by David Wong (Chapter 10: End-to-End Encryption, Chapter 9: Secure Transport (TLS, Noise Protocol,and Wiregaurd))
+       > https://cryptobook.nakov.com/asymmetric-key-ciphers/ecdh-key-exchange-examples , in Practical Cryptography for Developers by Svetlin Nakov, PhD
+
+[0:33] https://github.com/bshambaugh/SparkFun_ATECCX08a_Arduino_Library/tree/master/examples/Example1_ConfWriteOnly/Example1_ConfWriteOnly.ino
+
+[0:54] https://github.com/bshambaugh/SparkFun_ATECCX08a_Arduino_Library/blob/master/examples/Example1_Configuration/Example1_Configuration.ino
+
+[1:07] (print_ATECC508a_Configuration.ino)
+
+[1:20] http://ww1.microchip.com/downloads/en/DeviceDoc/20005928A.pdf  https://www.sparkfun.com/products/15573 > Documents > Datasheet
+
+[1:23] (sign_ATECC508a_ex2.ino)
+
+[1:37] https://gist.github.com/bshambaugh/9ac2db6075c5852b23c8d2b6140b02a8#gistcomment-3350811
+
+[1:43] (sketch_apr03a.ino)
+
+[1:46] (I2C_Scanner.ino), https://github.com/GadgetReboot/Arduino/blob/master/Uno/I2C_Scanner/I2C_Scanner.ino
+
+[1:49] (sketch_apr03_i2cdefault.ino)
+
+[2:04] (Example1_Configuration_i2cdefault.ino)
+
+[2:50] https://cryptobook.nakov.com/asymmetric-key-ciphers/elliptic-curve-cryptography-ecc , S Nakov, Practical Cryptography for Developers: Curves and Key Length
+
+[2:59] (parseArray2-2-2)
+
+[3:09] (elliptic-test/testThree.js)
+
+[3:41] https://github.com/WebOfTrustInfo/rwot1-sf/blob/master/final-documents/dpki.pdf (Decentralized Public Key Infrastructure, A Whitepaper from Rebooting Web of Trust)
+       > https://hackernoon.com/decentralized-public-key-infrastructure-dpki-what-is-it-and-why-does-it-matter-babee9d88579 , (Decentralized Public Key Infrastructure (DPKI): What is it and why does it matter? , May 14th 2019 , Yahsin Huang)
+       > https://www.youtube.com/watch?v=Uu651GJ5YY0 , Adventures in Self-Sovereign Identity: From...- June 28 | Identiverse 2019 , June 28, 2019, Bjorn Hamel)
+       > https://www.bigchaindb.com
+       > https://hackernoon.com/learn-blockchains-by-building-one-117428612f46 (Learn Blockchains by Building One, September 21st 2017 , Daniel van Flymen)
+       > Introduction to Cryptographic Keys and Certificates --- Paul Turner, https://www.youtube.com/watch?v=q9vu6_2r0o4
+       > PKI Bootcamp What is a PKI? -- Paul Turner, https://www.youtube.com/watch?v=5OqgYSXWYQM
+       > Digital Certificates: Chain of Trust -- David Crabbe , https://www.youtube.com/watch?v=heacxYUnFHA
+       > https://en.wikipedia.org/wiki/Chain_of_trust
+       > https://en.wikipedia.org/wiki/Root_certificate
+       > https://en.wikipedia.org/wiki/Certificate_authority
+       > Practical Cryptography for Developers, Svetlin Nakov, PhD , Section:Digital Signatures , https://cryptobook.nakov.com/digital-signatures/exercises-eddsa-sign-and-verify#eddsa-ed-25519-verify-signature
+
+[4:27] https://sovrin-foundation.github.io/sovrin/spec/did-method-spec-template.html
+
+[4:48] The Hitchhiker's Guide to BigchainDB , https://www.bigchaindb.com/developers/guide/
+       > BigchainDB Documentation, http://docs.bigchaindb.com/en/latest/index.html
+       > BigChainDB , https://www.bigchaindb.com/
+       > Interplanetary Database: Database for the Decentralized Web , https://ipdb.io/
